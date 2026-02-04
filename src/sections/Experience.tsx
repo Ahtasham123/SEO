@@ -9,7 +9,7 @@ const experiences = [
     role: 'Marketing Manager – SEO, Performance & Growth',
     company: 'Remotebase',
     location: 'United States (Remote)',
-    period: 'July 2022 – February 2025',
+    period: 'July 2022 – February 2026',
     type: 'Full-time',
     achievements: [
       { icon: TrendingUp, text: '38% organic traffic increase, 2× demo requests in 6 months' },
@@ -104,7 +104,7 @@ export function Experience() {
             Professional Experience
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            5+ years of driving organic growth and digital transformation 
+            7+ years of driving organic growth and digital transformation
             across SaaS, B2B, and professional services.
           </p>
         </motion.div>
@@ -128,9 +128,8 @@ export function Experience() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: index * 0.15 }}
-                className={`relative flex flex-col lg:flex-row gap-6 ${
-                  index % 2 === 0 ? 'lg:flex-row-reverse' : ''
-                }`}
+                className={`relative flex flex-col lg:flex-row gap-6 ${index % 2 === 0 ? 'lg:flex-row-reverse' : ''
+                  }`}
               >
                 {/* Timeline Dot with Pulse */}
                 <div className="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-white border-2 border-blue-500 transform -translate-x-1/2 mt-1.5 z-10 shadow-sm">
@@ -143,9 +142,8 @@ export function Experience() {
                 </div>
 
                 {/* Content Card with Hover Effect */}
-                <div className={`ml-10 lg:ml-0 lg:w-[calc(50%-2rem)] ${
-                  index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'
-                }`}>
+                <div className={`ml-10 lg:ml-0 lg:w-[calc(50%-2rem)] ${index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'
+                  }`}>
                   <div className="group bg-white rounded-xl p-5 border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                     {/* Header */}
                     <div className="flex flex-wrap items-start justify-between gap-3 mb-3">

@@ -4,7 +4,7 @@ import { ArrowRight, Download, TrendingUp, Users, Award, BarChart3 } from 'lucid
 import { Button } from '@/components/ui/button';
 
 const trustMetrics = [
-  { icon: Award, value: '5+', label: 'Years Experience' },
+  { icon: Award, value: '7+', label: 'Years Experience' },
   { icon: TrendingUp, value: '38%', label: 'Avg. Traffic Growth' },
   { icon: Users, value: '50+', label: 'Projects Delivered' },
   { icon: BarChart3, value: '4.5:1', label: 'Avg. ROAS' },
@@ -269,7 +269,7 @@ export function Hero() {
                       <Award className="w-5 h-5 text-blue-600" />
                     </div>
                     <div>
-                      <p className="text-lg font-bold text-slate-900">5+</p>
+                      <p className="text-lg font-bold text-slate-900">7+</p>
                       <p className="text-xs text-slate-500">Years Exp.</p>
                     </div>
                   </div>
